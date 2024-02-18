@@ -8,7 +8,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: '/',
     pathMatch: 'full',
   },
 ];

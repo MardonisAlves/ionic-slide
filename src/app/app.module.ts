@@ -15,7 +15,7 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     BrowserModule,
     RouterModule.forRoot([]),
-    IonicModule.forRoot({}),
+    IonicModule.forRoot(),
     FormsModule
   ],
   bootstrap:[AppComponent],
