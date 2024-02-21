@@ -6,6 +6,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import {  IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { FingerprintAIO } from '@awesome-cordova-plugins/fingerprint-aio/ngx';
 
 
 @NgModule({
@@ -18,8 +19,9 @@ import { FormsModule } from '@angular/forms';
     IonicModule.forRoot(),
     FormsModule
   ],
+  providers:[FingerprintAIO],
   bootstrap:[AppComponent],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
-  exports:[]
+ 
 })
 export class AppModule { }
